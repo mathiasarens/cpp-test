@@ -11,7 +11,10 @@
 //#include "RedKnightsShortestPath.cpp"
 //#include "FindTheKSmallestItemInABst.cpp"
 //#include "NumberOfIslands.cpp"
-#include "HighestValuePalindrome.h"
+//#include "HighestValuePalindrome.h"
+
+//#include "SherlockAndTest.h"
+#include "FrequencyQueries.hpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -94,76 +97,90 @@ int main(int argc, const char * argv[]) {
     
     
     // RedKnightShortestPath
-//    Solution* solution = new Solution();
-//        solution->printShortestPath(7, 6, 6, 0, 1);
-//        solution->printShortestPath(6, 5, 1, 0, 5);
-//        solution->printShortestPath(7, 0, 3, 4, 3);
-//        solution->printShortestPath(1, 0, 0, 0, 0);
-//    solution->printShortestPath(70,7,15,67,3);
-//    30
-//    LR LR LR LR LR LR LR LR LR LL LL LL LL LL LL LL LL LL LL LL LL LL LL LL LL LL LL LL LL LL
+    //    Solution* solution = new Solution();
+    //        solution->printShortestPath(7, 6, 6, 0, 1);
+    //        solution->printShortestPath(6, 5, 1, 0, 5);
+    //        solution->printShortestPath(7, 0, 3, 4, 3);
+    //        solution->printShortestPath(1, 0, 0, 0, 0);
+    //    solution->printShortestPath(70,7,15,67,3);
+    //    30
+    //    LR LR LR LR LR LR LR LR LR LL LL LL LL LL LL LL LL LL LL LL LL LL LL LL LL LL LL LL LL LL
     
     // FindTheKSmallestElementInABst
     
-//    TreeNode *node1 = new TreeNode(1);
-//    TreeNode *node2 = new TreeNode(2);
-//    TreeNode *node3 = new TreeNode(3);
-//    TreeNode *node4 = new TreeNode(4);
-//
-//    node3->left = node1;
-//    node3->right = node4;
-//    node1->right = node2;
-
-//    TreeNode *node1 = new TreeNode(1);
-//    TreeNode *node2 = new TreeNode(2);
-//    TreeNode *node3 = new TreeNode(3);
-//    TreeNode *node4 = new TreeNode(4);
-//    TreeNode *node5 = new TreeNode(5);
-//    TreeNode *node6 = new TreeNode(6);
-//
-//    node5->left = node3;
-//    node5->right = node6;
-//    node3->left = node2;
-//    node3->right = node4;
-//    node2->left = node1;
-//
-//    Solution* solution = new Solution();
-//    int result = solution->kthSmallest(node5, 7);
-//    std::cout << result << std::endl;
-   
+    //    TreeNode *node1 = new TreeNode(1);
+    //    TreeNode *node2 = new TreeNode(2);
+    //    TreeNode *node3 = new TreeNode(3);
+    //    TreeNode *node4 = new TreeNode(4);
+    //
+    //    node3->left = node1;
+    //    node3->right = node4;
+    //    node1->right = node2;
+    
+    //    TreeNode *node1 = new TreeNode(1);
+    //    TreeNode *node2 = new TreeNode(2);
+    //    TreeNode *node3 = new TreeNode(3);
+    //    TreeNode *node4 = new TreeNode(4);
+    //    TreeNode *node5 = new TreeNode(5);
+    //    TreeNode *node6 = new TreeNode(6);
+    //
+    //    node5->left = node3;
+    //    node5->right = node6;
+    //    node3->left = node2;
+    //    node3->right = node4;
+    //    node2->left = node1;
+    //
+    //    Solution* solution = new Solution();
+    //    int result = solution->kthSmallest(node5, 7);
+    //    std::cout << result << std::endl;
+    
     
     // Number Of Islands
     
-//    vector<vector<char>> grid = vector<vector<char>>(10, vector<char>(10,'0'));
-//    grid[0][0]='1';
-//    grid[0][1]='1';
-//    grid[1][1]='1';
-//    grid[2][2]='1';
-//
-//    // [["1","1","0","0","0"],["1","1","0","0","0"],["0","0","1","0","0"],["0","0","0","1","1"]]
-//    // Expected 3
-//
-//    // [["1","0","1","1","1"],["1","0","1","0","1"],["1","1","1","0","1"]]
-//    // Expected 2
-//
-////    grid[5][5]='1';
-////
-////    grid[9][9]='1';
-////      grid[9][19]='1';
-//
-//    Solution* solution = new Solution();
-//    int result = solution->numIslands(grid);
-//    cout << result << endl;
+    //    vector<vector<char>> grid = vector<vector<char>>(10, vector<char>(10,'0'));
+    //    grid[0][0]='1';
+    //    grid[0][1]='1';
+    //    grid[1][1]='1';
+    //    grid[2][2]='1';
+    //
+    //    // [["1","1","0","0","0"],["1","1","0","0","0"],["0","0","1","0","0"],["0","0","0","1","1"]]
+    //    // Expected 3
+    //
+    //    // [["1","0","1","1","1"],["1","0","1","0","1"],["1","1","1","0","1"]]
+    //    // Expected 2
+    //
+    ////    grid[5][5]='1';
+    ////
+    ////    grid[9][9]='1';
+    ////      grid[9][19]='1';
+    //
+    //    Solution* solution = new Solution();
+    //    int result = solution->numIslands(grid);
+    //    cout << result << endl;
     
     // Highest Value Palindrom
-//    std::cout << highestValuePalindrome("329",3,2) << std::endl; // 999
-//    std::cout << highestValuePalindrome("3943",4,1) << std::endl; // 3993
-//    std::cout << highestValuePalindrome("39743",5,1) << std::endl; // 39793
-//    std::cout << highestValuePalindrome("092282",6,3) << std::endl; // 992299
-//    std::cout << highestValuePalindrome("1111911",8,4) << std::endl; // 91199119
-
+    //    std::cout << highestValuePalindrome("329",3,2) << std::endl; // 999
+    //    std::cout << highestValuePalindrome("3943",4,1) << std::endl; // 3993
+    //    std::cout << highestValuePalindrome("39743",5,1) << std::endl; // 39793
+    //    std::cout << highestValuePalindrome("092282",6,3) << std::endl; // 992299
+    //    std::cout << highestValuePalindrome("1111911",8,4) << std::endl; // 91199119
+    
     //    8 4 1111911 => 91199119
-//    And a case of my own for the other part: 3 2 329 => 999
-     return 0;
+    //    And a case of my own for the other part: 3 2 329 => 999
+    
+    // SherlockAndTest.cpp
+    // cout << cost(vector<int>{1,2,3}) << endl;
+    
+    // Frequency Queries
+    //vector<vector<int>> queries {{1,1}, {2,2}, {3,2}, {1,1}, {1,1}, {2,1}, {3,2}};
+    
+    vector<vector<int>> queries {{1,5}, {1,6}, {3,2}, {1,10}, {1,10}, {1,6}, {2,5}, {3,2}};
+    vector<int> result = freqQuery(queries);
+    for (vector<int>::iterator it = result.begin(); it != result.end(); it++) {
+        cout << *it << " ";
+    }
+    cout << endl;
+    
+    return 0;
 }
 

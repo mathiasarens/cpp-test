@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B4227C72197724C00C28E4C /* FrequencyQueries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B4227C52197724C00C28E4C /* FrequencyQueries.cpp */; };
 		6B72D4802182298B003F9368 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B72D47F2182298B003F9368 /* main.cpp */; };
 		6B72D487218233EB003F9368 /* PopulatingNextRightPointersInEachNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B72D486218233EB003F9368 /* PopulatingNextRightPointersInEachNode.cpp */; };
 		6B72D48921826D32003F9368 /* RedKnightsShortestPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B72D48821826D32003F9368 /* RedKnightsShortestPath.cpp */; };
 		6B72D48E2182E1E3003F9368 /* FindTheKSmallestItemInABst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B72D48C2182E1E3003F9368 /* FindTheKSmallestItemInABst.cpp */; };
 		6B72D4912183C474003F9368 /* NumberOfIslands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B72D48F2183C474003F9368 /* NumberOfIslands.cpp */; };
 		6B72D493218522CE003F9368 /* HighestValuePalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B72D492218522CE003F9368 /* HighestValuePalindrome.cpp */; };
+		6BF57A3C219765E000FB9CAA /* SherlockAndTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BF57A3B219765E000FB9CAA /* SherlockAndTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6B4227C4219767A500C28E4C /* SherlockAndTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SherlockAndTest.h; sourceTree = "<group>"; };
+		6B4227C52197724C00C28E4C /* FrequencyQueries.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FrequencyQueries.cpp; sourceTree = "<group>"; };
+		6B4227C62197724C00C28E4C /* FrequencyQueries.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FrequencyQueries.hpp; sourceTree = "<group>"; };
 		6B72D47C2182298B003F9368 /* cpptest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpptest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B72D47F2182298B003F9368 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6B72D486218233EB003F9368 /* PopulatingNextRightPointersInEachNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PopulatingNextRightPointersInEachNode.cpp; sourceTree = "<group>"; };
@@ -36,6 +41,7 @@
 		6B72D48F2183C474003F9368 /* NumberOfIslands.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberOfIslands.cpp; sourceTree = "<group>"; };
 		6B72D492218522CE003F9368 /* HighestValuePalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HighestValuePalindrome.cpp; sourceTree = "<group>"; };
 		6B72D49421852407003F9368 /* HighestValuePalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HighestValuePalindrome.h; sourceTree = "<group>"; };
+		6BF57A3B219765E000FB9CAA /* SherlockAndTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SherlockAndTest.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,10 @@
 				6B72D48C2182E1E3003F9368 /* FindTheKSmallestItemInABst.cpp */,
 				6B72D48F2183C474003F9368 /* NumberOfIslands.cpp */,
 				6B72D49421852407003F9368 /* HighestValuePalindrome.h */,
+				6BF57A3B219765E000FB9CAA /* SherlockAndTest.cpp */,
+				6B4227C4219767A500C28E4C /* SherlockAndTest.h */,
+				6B4227C52197724C00C28E4C /* FrequencyQueries.cpp */,
+				6B4227C62197724C00C28E4C /* FrequencyQueries.hpp */,
 			);
 			path = cpptest;
 			sourceTree = "<group>";
@@ -140,6 +150,8 @@
 				6B72D48E2182E1E3003F9368 /* FindTheKSmallestItemInABst.cpp in Sources */,
 				6B72D4802182298B003F9368 /* main.cpp in Sources */,
 				6B72D48921826D32003F9368 /* RedKnightsShortestPath.cpp in Sources */,
+				6B4227C72197724C00C28E4C /* FrequencyQueries.cpp in Sources */,
+				6BF57A3C219765E000FB9CAA /* SherlockAndTest.cpp in Sources */,
 				6B72D493218522CE003F9368 /* HighestValuePalindrome.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
