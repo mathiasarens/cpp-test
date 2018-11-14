@@ -14,7 +14,8 @@
 //#include "HighestValuePalindrome.h"
 
 //#include "SherlockAndTest.h"
-#include "FrequencyQueries.hpp"
+//#include "FrequencyQueries.hpp"
+#include "LongestPalindromicSubsequence.hpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -174,13 +175,16 @@ int main(int argc, const char * argv[]) {
     // Frequency Queries
     //vector<vector<int>> queries {{1,1}, {2,2}, {3,2}, {1,1}, {1,1}, {2,1}, {3,2}};
     
-    vector<vector<int>> queries {{1,5}, {1,6}, {3,2}, {1,10}, {1,10}, {1,6}, {2,5}, {3,2}};
-    vector<int> result = freqQuery(queries);
-    for (vector<int>::iterator it = result.begin(); it != result.end(); it++) {
-        cout << *it << " ";
-    }
-    cout << endl;
+//    vector<vector<int>> queries {{1,5}, {1,6}, {3,2}, {1,10}, {1,10}, {1,6}, {2,5}, {3,2}};
+//    vector<int> result = freqQuery(queries);
+//    for (vector<int>::iterator it = result.begin(); it != result.end(); it++) {
+//        cout << *it << " ";
+//    }
+//    cout << endl;
     
+    
+    LongestPalindromicSubsequence* longestPalindromicSubsequenceObj = new LongestPalindromicSubsequence();
+    cout << longestPalindromicSubsequenceObj->longestPalindromeSubseq("bbbab") << endl;
     return 0;
 }
 
