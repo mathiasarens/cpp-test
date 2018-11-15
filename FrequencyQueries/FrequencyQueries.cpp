@@ -5,9 +5,9 @@
 //  Created by Mathias Arens on 11/10/18.
 //  Copyright © 2018 Mathias Arens. All rights reserved.
 //
-
-#include "FrequencyQueries.hpp"
+#include "FrequencyQueries.h"
 #include <map>
+#include <vector>
 
 // Complete the freqQuery function below.
 vector<int> freqQuery(vector<vector<int>> queries) {

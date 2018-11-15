@@ -7,19 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B4227C72197724C00C28E4C /* FrequencyQueries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B4227C52197724C00C28E4C /* FrequencyQueries.cpp */; };
 		6B72D4802182298B003F9368 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B72D47F2182298B003F9368 /* main.cpp */; };
 		6B72D487218233EB003F9368 /* PopulatingNextRightPointersInEachNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B72D486218233EB003F9368 /* PopulatingNextRightPointersInEachNode.cpp */; };
 		6B72D48921826D32003F9368 /* RedKnightsShortestPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B72D48821826D32003F9368 /* RedKnightsShortestPath.cpp */; };
 		6B72D48E2182E1E3003F9368 /* FindTheKSmallestItemInABst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B72D48C2182E1E3003F9368 /* FindTheKSmallestItemInABst.cpp */; };
 		6B72D4912183C474003F9368 /* NumberOfIslands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B72D48F2183C474003F9368 /* NumberOfIslands.cpp */; };
-		6B72D493218522CE003F9368 /* HighestValuePalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B72D492218522CE003F9368 /* HighestValuePalindrome.cpp */; };
-		6B803764219BF1CC004E6883 /* LongestPalindromicSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B803762219BF1CC004E6883 /* LongestPalindromicSubsequence.cpp */; };
-		6BF57A3C219765E000FB9CAA /* SherlockAndTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BF57A3B219765E000FB9CAA /* SherlockAndTest.cpp */; };
+		6B80376F219E16CD004E6883 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B80376E219E16CD004E6883 /* main.cpp */; };
+		6B803773219E171C004E6883 /* LongestPalindromicSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B803762219BF1CC004E6883 /* LongestPalindromicSubsequence.cpp */; };
+		6B80377B219E17CE004E6883 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B80377A219E17CE004E6883 /* main.cpp */; };
+		6B80377F219E17D7004E6883 /* FrequencyQueries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B4227C52197724C00C28E4C /* FrequencyQueries.cpp */; };
+		6B803788219E1AB6004E6883 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B803787219E1AB6004E6883 /* main.cpp */; };
+		6B80378D219E1AC6004E6883 /* SherlockAndTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BF57A3B219765E000FB9CAA /* SherlockAndTest.cpp */; };
+		6B803796219E1BD8004E6883 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B803795219E1BD8004E6883 /* main.cpp */; };
+		6B80379A219E1BE3004E6883 /* HighestValuePalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B72D492218522CE003F9368 /* HighestValuePalindrome.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		6B72D47A2182298B003F9368 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B80376A219E16CD004E6883 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B803776219E17CE004E6883 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B803783219E1AB6004E6883 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6B803791219E1BD8004E6883 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -33,7 +73,6 @@
 /* Begin PBXFileReference section */
 		6B4227C4219767A500C28E4C /* SherlockAndTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SherlockAndTest.h; sourceTree = "<group>"; };
 		6B4227C52197724C00C28E4C /* FrequencyQueries.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FrequencyQueries.cpp; sourceTree = "<group>"; };
-		6B4227C62197724C00C28E4C /* FrequencyQueries.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FrequencyQueries.hpp; sourceTree = "<group>"; };
 		6B72D47C2182298B003F9368 /* cpptest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpptest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B72D47F2182298B003F9368 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6B72D486218233EB003F9368 /* PopulatingNextRightPointersInEachNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PopulatingNextRightPointersInEachNode.cpp; sourceTree = "<group>"; };
@@ -44,11 +83,48 @@
 		6B72D49421852407003F9368 /* HighestValuePalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HighestValuePalindrome.h; sourceTree = "<group>"; };
 		6B803762219BF1CC004E6883 /* LongestPalindromicSubsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestPalindromicSubsequence.cpp; sourceTree = "<group>"; };
 		6B803763219BF1CC004E6883 /* LongestPalindromicSubsequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestPalindromicSubsequence.hpp; sourceTree = "<group>"; };
+		6B80376C219E16CD004E6883 /* LongestPalindromicSubsequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LongestPalindromicSubsequence; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B80376E219E16CD004E6883 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B803778219E17CE004E6883 /* FrequencyQueries */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FrequencyQueries; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B80377A219E17CE004E6883 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B803780219E1A43004E6883 /* FrequencyQueries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrequencyQueries.h; sourceTree = "<group>"; };
+		6B803785219E1AB6004E6883 /* SherlockAndTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SherlockAndTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B803787219E1AB6004E6883 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B803793219E1BD8004E6883 /* HighestValuePalindrome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HighestValuePalindrome; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B803795219E1BD8004E6883 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6BF57A3B219765E000FB9CAA /* SherlockAndTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SherlockAndTest.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6B72D4792182298B003F9368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B803769219E16CD004E6883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B803775219E17CE004E6883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B803782219E1AB6004E6883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B803790219E1BD8004E6883 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,6 +138,10 @@
 			isa = PBXGroup;
 			children = (
 				6B72D47E2182298B003F9368 /* cpptest */,
+				6B80376D219E16CD004E6883 /* LongestPalindromicSubsequence */,
+				6B803779219E17CE004E6883 /* FrequencyQueries */,
+				6B803786219E1AB6004E6883 /* SherlockAndTest */,
+				6B803794219E1BD8004E6883 /* HighestValuePalindrome */,
 				6B72D47D2182298B003F9368 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +150,10 @@
 			isa = PBXGroup;
 			children = (
 				6B72D47C2182298B003F9368 /* cpptest */,
+				6B80376C219E16CD004E6883 /* LongestPalindromicSubsequence */,
+				6B803778219E17CE004E6883 /* FrequencyQueries */,
+				6B803785219E1AB6004E6883 /* SherlockAndTest */,
+				6B803793219E1BD8004E6883 /* HighestValuePalindrome */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,19 +163,51 @@
 			children = (
 				6B72D47F2182298B003F9368 /* main.cpp */,
 				6B72D48821826D32003F9368 /* RedKnightsShortestPath.cpp */,
-				6B72D492218522CE003F9368 /* HighestValuePalindrome.cpp */,
 				6B72D486218233EB003F9368 /* PopulatingNextRightPointersInEachNode.cpp */,
 				6B72D48C2182E1E3003F9368 /* FindTheKSmallestItemInABst.cpp */,
 				6B72D48F2183C474003F9368 /* NumberOfIslands.cpp */,
-				6B72D49421852407003F9368 /* HighestValuePalindrome.h */,
-				6BF57A3B219765E000FB9CAA /* SherlockAndTest.cpp */,
-				6B4227C4219767A500C28E4C /* SherlockAndTest.h */,
-				6B4227C52197724C00C28E4C /* FrequencyQueries.cpp */,
-				6B4227C62197724C00C28E4C /* FrequencyQueries.hpp */,
-				6B803762219BF1CC004E6883 /* LongestPalindromicSubsequence.cpp */,
-				6B803763219BF1CC004E6883 /* LongestPalindromicSubsequence.hpp */,
 			);
 			path = cpptest;
+			sourceTree = "<group>";
+		};
+		6B80376D219E16CD004E6883 /* LongestPalindromicSubsequence */ = {
+			isa = PBXGroup;
+			children = (
+				6B803762219BF1CC004E6883 /* LongestPalindromicSubsequence.cpp */,
+				6B803763219BF1CC004E6883 /* LongestPalindromicSubsequence.hpp */,
+				6B80376E219E16CD004E6883 /* main.cpp */,
+			);
+			path = LongestPalindromicSubsequence;
+			sourceTree = "<group>";
+		};
+		6B803779219E17CE004E6883 /* FrequencyQueries */ = {
+			isa = PBXGroup;
+			children = (
+				6B4227C52197724C00C28E4C /* FrequencyQueries.cpp */,
+				6B80377A219E17CE004E6883 /* main.cpp */,
+				6B803780219E1A43004E6883 /* FrequencyQueries.h */,
+			);
+			path = FrequencyQueries;
+			sourceTree = "<group>";
+		};
+		6B803786219E1AB6004E6883 /* SherlockAndTest */ = {
+			isa = PBXGroup;
+			children = (
+				6BF57A3B219765E000FB9CAA /* SherlockAndTest.cpp */,
+				6B4227C4219767A500C28E4C /* SherlockAndTest.h */,
+				6B803787219E1AB6004E6883 /* main.cpp */,
+			);
+			path = SherlockAndTest;
+			sourceTree = "<group>";
+		};
+		6B803794219E1BD8004E6883 /* HighestValuePalindrome */ = {
+			isa = PBXGroup;
+			children = (
+				6B72D492218522CE003F9368 /* HighestValuePalindrome.cpp */,
+				6B72D49421852407003F9368 /* HighestValuePalindrome.h */,
+				6B803795219E1BD8004E6883 /* main.cpp */,
+			);
+			path = HighestValuePalindrome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,6 +230,74 @@
 			productReference = 6B72D47C2182298B003F9368 /* cpptest */;
 			productType = "com.apple.product-type.tool";
 		};
+		6B80376B219E16CD004E6883 /* LongestPalindromicSubsequence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B803770219E16CD004E6883 /* Build configuration list for PBXNativeTarget "LongestPalindromicSubsequence" */;
+			buildPhases = (
+				6B803768219E16CD004E6883 /* Sources */,
+				6B803769219E16CD004E6883 /* Frameworks */,
+				6B80376A219E16CD004E6883 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LongestPalindromicSubsequence;
+			productName = LongestPalindromicSubsequence;
+			productReference = 6B80376C219E16CD004E6883 /* LongestPalindromicSubsequence */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B803777219E17CE004E6883 /* FrequencyQueries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B80377C219E17CE004E6883 /* Build configuration list for PBXNativeTarget "FrequencyQueries" */;
+			buildPhases = (
+				6B803774219E17CE004E6883 /* Sources */,
+				6B803775219E17CE004E6883 /* Frameworks */,
+				6B803776219E17CE004E6883 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrequencyQueries;
+			productName = FrequencyQueries;
+			productReference = 6B803778219E17CE004E6883 /* FrequencyQueries */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B803784219E1AB6004E6883 /* SherlockAndTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B803789219E1AB6004E6883 /* Build configuration list for PBXNativeTarget "SherlockAndTest" */;
+			buildPhases = (
+				6B803781219E1AB6004E6883 /* Sources */,
+				6B803782219E1AB6004E6883 /* Frameworks */,
+				6B803783219E1AB6004E6883 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SherlockAndTest;
+			productName = SherlockAndTest;
+			productReference = 6B803785219E1AB6004E6883 /* SherlockAndTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		6B803792219E1BD8004E6883 /* HighestValuePalindrome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B803797219E1BD8004E6883 /* Build configuration list for PBXNativeTarget "HighestValuePalindrome" */;
+			buildPhases = (
+				6B80378F219E1BD8004E6883 /* Sources */,
+				6B803790219E1BD8004E6883 /* Frameworks */,
+				6B803791219E1BD8004E6883 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HighestValuePalindrome;
+			productName = HighestValuePalindrome;
+			productReference = 6B803793219E1BD8004E6883 /* HighestValuePalindrome */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -125,6 +309,18 @@
 				TargetAttributes = {
 					6B72D47B2182298B003F9368 = {
 						CreatedOnToolsVersion = 10.0;
+					};
+					6B80376B219E16CD004E6883 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6B803777219E17CE004E6883 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6B803784219E1AB6004E6883 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6B803792219E1BD8004E6883 = {
+						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
@@ -141,6 +337,10 @@
 			projectRoot = "";
 			targets = (
 				6B72D47B2182298B003F9368 /* cpptest */,
+				6B80376B219E16CD004E6883 /* LongestPalindromicSubsequence */,
+				6B803777219E17CE004E6883 /* FrequencyQueries */,
+				6B803784219E1AB6004E6883 /* SherlockAndTest */,
+				6B803792219E1BD8004E6883 /* HighestValuePalindrome */,
 			);
 		};
 /* End PBXProject section */
@@ -155,10 +355,42 @@
 				6B72D48E2182E1E3003F9368 /* FindTheKSmallestItemInABst.cpp in Sources */,
 				6B72D4802182298B003F9368 /* main.cpp in Sources */,
 				6B72D48921826D32003F9368 /* RedKnightsShortestPath.cpp in Sources */,
-				6B4227C72197724C00C28E4C /* FrequencyQueries.cpp in Sources */,
-				6BF57A3C219765E000FB9CAA /* SherlockAndTest.cpp in Sources */,
-				6B72D493218522CE003F9368 /* HighestValuePalindrome.cpp in Sources */,
-				6B803764219BF1CC004E6883 /* LongestPalindromicSubsequence.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B803768219E16CD004E6883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B80376F219E16CD004E6883 /* main.cpp in Sources */,
+				6B803773219E171C004E6883 /* LongestPalindromicSubsequence.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B803774219E17CE004E6883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B80377B219E17CE004E6883 /* main.cpp in Sources */,
+				6B80377F219E17D7004E6883 /* FrequencyQueries.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B803781219E1AB6004E6883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B80378D219E1AC6004E6883 /* SherlockAndTest.cpp in Sources */,
+				6B803788219E1AB6004E6883 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B80378F219E1BD8004E6883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B803796219E1BD8004E6883 /* main.cpp in Sources */,
+				6B80379A219E1BE3004E6883 /* HighestValuePalindrome.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +524,70 @@
 			};
 			name = Release;
 		};
+		6B803771219E16CD004E6883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B803772219E16CD004E6883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B80377D219E17CE004E6883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B80377E219E17CE004E6883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B80378A219E1AB6004E6883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B80378B219E1AB6004E6883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B803798219E1BD8004E6883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B803799219E1BD8004E6883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -309,6 +605,42 @@
 			buildConfigurations = (
 				6B72D4842182298B003F9368 /* Debug */,
 				6B72D4852182298B003F9368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B803770219E16CD004E6883 /* Build configuration list for PBXNativeTarget "LongestPalindromicSubsequence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B803771219E16CD004E6883 /* Debug */,
+				6B803772219E16CD004E6883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B80377C219E17CE004E6883 /* Build configuration list for PBXNativeTarget "FrequencyQueries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B80377D219E17CE004E6883 /* Debug */,
+				6B80377E219E17CE004E6883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B803789219E1AB6004E6883 /* Build configuration list for PBXNativeTarget "SherlockAndTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B80378A219E1AB6004E6883 /* Debug */,
+				6B80378B219E1AB6004E6883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B803797219E1BD8004E6883 /* Build configuration list for PBXNativeTarget "HighestValuePalindrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B803798219E1BD8004E6883 /* Debug */,
+				6B803799219E1BD8004E6883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
